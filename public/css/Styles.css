@@ -1,0 +1,127 @@
+* { margin:0;
+    padding: 0; }
+body {
+   
+    font-family: "Lato", sans-serif;
+    background-color: pink;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300; 
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p{
+    font-size: 17px;
+    line-height: 24px;
+}
+
+p strong {
+    background-color: orange;
+    color: white;
+    font-style: italic;
+}
+
+strong {
+color: rgb(179, 255, 1);
+}
+
+.parrafo-destacado {
+    color: salmon;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.parrafo-destacado em {
+    color: red;
+    text-transform: uppercase;
+}
+
+.contenedor01 {
+    background-color: orange;
+    width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+.contenedor02 {
+    background-color: orange;
+    width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    max-width: 1100px;
+}
+.contenedor03 {
+    background-color: orange;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    max-width: 1100px;
+}
+
+@media (min-width: 576px){
+
+    .contenedor02 {
+        
+        width: 70%;
+        text-align: center;
+       
+    }
+    .contenedor03 {
+                width: 70%;
+                text-align: center;
+    }
+    body {
+   
+        
+        background-color: yellow;
+    
+    }
+
+}
+
+@media (min-width: 768px){
+
+    .contenedor02 {
+        
+        background-color: tomato;
+
+       
+    }
+    .contenedor03 {
+           background-color: turquoise;
+            
+    }
+    body {
+   
+        
+        background-color: white;
+    
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .contenedor02 {
+        
+        border: 16px solid purple;
+
+       
+    }
+    .contenedor03 {
+        border: 16px dashed green;
+            
+    }
+    
+    }
